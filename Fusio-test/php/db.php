@@ -1,8 +1,9 @@
 <?php
+	// Add your info here
 	$host = "localhost";
-	$userName = "drunpyag_adm";
-	$password = "1merda";
-	$dbName = "drunpyag_fusio";
+	$userName = "adm"; 
+	$password = "1234";
+	$dbName = "fusio";
 
 	// Create database connection
 	$conn = new mysqli($host, $userName, $password, $dbName);
